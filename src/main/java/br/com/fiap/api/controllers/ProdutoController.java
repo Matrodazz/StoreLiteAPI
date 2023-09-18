@@ -63,7 +63,7 @@ public class ProdutoController {
 
 
     
-    @PostMapping("/api/produto")
+    @PostMapping
     @ApiResponses({
         @ApiResponse(responseCode = "201", description = "Produto cadastrado com sucesso"),
         @ApiResponse(responseCode = "400", description = "Campos enviados são inválidos")

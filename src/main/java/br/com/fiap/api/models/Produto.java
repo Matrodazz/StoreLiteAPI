@@ -50,10 +50,10 @@ public class Produto {
 
     private double frete;
 
-    @NotNull
+
     private int quantidade;
 
-    @NotNull
+   
     private LocalDateTime vencimento;
 
     @ManyToOne
