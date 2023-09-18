@@ -29,6 +29,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests()
                     .requestMatchers(HttpMethod.POST, "/api/registrar").permitAll()
                     .requestMatchers(HttpMethod.POST, "/api/login").permitAll()
+                    .requestMatchers(HttpMethod.POST, "https://storeliteapi-production.up.railway.app/api/produto").permitAll()
                     .requestMatchers("/v3/api-docs/**", "/swagger-ui/**").permitAll()
                 //    .anyRequest().permitAll()
                 .and()
