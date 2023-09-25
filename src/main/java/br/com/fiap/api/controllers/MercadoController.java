@@ -37,7 +37,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @Slf4j
-@RequestMapping("/api/mercado")
+@RequestMapping("/api/mercados")
 public class MercadoController {
 
     Logger log = LoggerFactory.getLogger(MercadoController.class);
