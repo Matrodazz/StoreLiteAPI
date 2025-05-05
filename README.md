@@ -1,5 +1,5 @@
 # StoreLiteApi
-Versão atualizada do trabalho de faculdade para uma criação de API de um aplicativo que conecta o comércio com o consumidor.
+Este é um projeto acadêmico que consiste em uma API para um supermercado, desenvolvida com o objetivo de gerenciar produtos, categorias, preços, inventário e mais.
 
 ## Endpoint
 
